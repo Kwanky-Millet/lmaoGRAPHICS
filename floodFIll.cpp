@@ -8,7 +8,7 @@ void floodfill (int x, int y, int fillcolor, int oldcolor) {
 	if (getpixel(x, y) == oldcolor) {
 		setcolor(fillcolor);
 
-		putpixel(x, y, fillcolor, oldcolor);
+		putpixel(x, y, fillcolor);
 
 		floodfill(x + 1, y, fillcolor, oldcolor);
 		floodfill(x - 1, y, fillcolor, oldcolor);
