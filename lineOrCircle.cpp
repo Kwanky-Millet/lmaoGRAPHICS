@@ -72,9 +72,9 @@ void main () {
 				
 				clrscr();
 
-				cout << "Enter the co-ordinates of the circle: ");
+				cout << "Enter the co-ordinates of the circle: ";
 				cin >> xc >> yc;
-				cout << "Enter the radius of the circle: ");
+				cout << "Enter the radius of the circle: ";
 				cin >> r;
 
 				int gd = DETECT, gm;
